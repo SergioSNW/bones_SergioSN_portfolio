@@ -1,7 +1,43 @@
+html {
+  font-size: 16px;
+  background-image: url('./images/christopher-burns-Kj2SaNHG-hg-unsplash.jpg');
+  background-color: rgba(200, 200, 200, 1);
+  color: #151515;
+  font-weight: 600;
+}
+
 h1 {
   color: black;
 }
 
 header {
   text-align: center;
+}
+
+strong {
+  color: blue;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  border-radius: 13px;
+  align-items: center;
+  margin: 50px 90px;
+  padding: 60px;
+}
+
+.presentation h2 {
+  display: block;
+}
+
+.presentation p {
+  width: 600px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
